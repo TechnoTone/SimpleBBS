@@ -13,7 +13,7 @@ use a tool such as Postman or with PowerShell like so:
 - Add new post:
 `Invoke-RestMethod -Method Post -Uri "https://localhost:5001/BBS"
 -ContentType "application/json" -Body
-{"username":"test_user","message":"test message"}`
+'{"username":"test_user","message":"test message"}'`
 
 #### Next steps
 Due to time constraints this is a very sparse demo with some issues that
